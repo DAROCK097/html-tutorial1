@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE</title>
+</head>
+<body>
+    <table border="2" cellspacing="5" cellpadding="5">
+      <thead>
+        <tr>
+            <th>fruits</th>
+            <th>cars</th>
+            <th>names</th>
+            <th>animals</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>mango</td>
+            <td>toyota</td>
+            <td>john</td>
+            <td>lion</td>
+        </tr>
+        <tr>
+            <td>orange</td>
+            <td>mazda</td>
+            <td>alice</td>
+            <td>leopard</td>
+        </tr>
+        <tr>
+            <td>apple</td>
+            <td>benz</td>
+            <td>james</td>
+            <td>jaguar</td>
+        </tr>
+        <tr>
+            <td>watermelon</td>
+            <td>ferrari</td>
+            <td>sam</td>
+            <td>kangaroo</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="4">this is a table</td>
+        </tr>
+    </tfoot>
+    </table>
+    <hr>
+    <table border="2" cellspacing="5"cellpadding=5>
+        <tr>
+            <th colspan="2"> name</th>
+            <th>age</th>
+         </tr>
+         <tr>
+            <td>john</td>
+            <td>alice</td>
+            <td>24</td>
+         </tr>
+    </table>
+    <hr>
+    <table border="2" cellspacing="5"cellpadding=5>
+    <tr>
+        <th>first name</th>
+        <th>surname</th>
+        <th>age</th>
+     </tr><tr>
+        <td rowspan="2"> john</td>
+        <td>alice</td>
+        <td>40</td>
+     </tr>
+     <tr>
+        <td>sam</td>
+        <td>25</td>
+    </tr>
+    </table>
+    <form action="">
+        <fieldset>
+            
+            <legend>
+                <h2>sign up page</h2>
+            </legend>
+               
+                <label for="first_name">first_name:</label>
+                <input type="text" name="first_name"><br>
+                <label for="last_name">last_name:</label>
+                <input type="text" name="last_name"><br>
+                <label for=""password>password:</label>
+                <input type="password" name="password" id=""><br>
+                <label for="hobbies">hobbies:</label><br>
+                <label for="football">football</label>
+                <input type="checkbox" name="football"><br>
+                <label for="basketball">basketball:</label>
+                <input type="checkbox" name="basketball"><br>
+                <label for="reading">reading:</label>
+                <input type="checkbox" name="reading"><br>
+                <label for="gender">gender:</label><br>
+                <label for="male">male:</label>
+                <input type="radio" name="gender" value="male" id=""><br>
+                <label for="female">female:</label>
+                <input type="radio" name="gender" value="female" id=""><br>
+                <label for="are you a student">are you a student:</label>
+                <select name="option" id="">
+                    <option value="" disabled selected>--choose any option--</option>
+                    <option value="yes">yes:</option>
+                    <option value="no">no:</option>
+                </select><br>
+                <input type="email" placeholder="enter your mail">
+                <input type="date">
+                <button type="submit">signup</button>
+        </fieldset>    
+    </form>
+</body>
+</html>

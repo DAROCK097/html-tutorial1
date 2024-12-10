@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MULTIMEDIA</title>
+</head>
+<body>
+    <audio controls src="audios/Pheelz-Ft-Olamide-Dj-Yk-Mule-Poco-Lee-5am-In-Ojo-Freestyle-(TrendyBeatz.com).mp3"></audio><br>
+    <iframe src="videos/Burna-Boy-Monsters-You-Made-Video.mp4" frameborder="0" width="300" height="300"></iframe><br>
+    <video controls src="videos/Burna-Boy-Monsters-You-Made-Video.mp4"></video>
+
+    
+    <script>
+        if(navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function(position) {
+                console.log("longitude: " + position.coords.longitude) ;
+                console.log("latitude: " + position.coords.latitude) ;
+            });
+        }
+
+        localStorage.setItem("username" , "olamide") ;
+
+        const username = localStorage.getItem("username") ;
+        console.log("username stored:", username);
+
+    </script>
+    
+</body>
+</html>
